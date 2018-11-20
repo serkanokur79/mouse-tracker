@@ -1,0 +1,69 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    border: 3px solid black;
+    background-color: #778899;
+
+}
+.circle {
+    position: absolute;
+    top: 1px;
+    width: 50px;
+    height: 50px;
+    color: transparent;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: #FA8072;
+}
+
+.circle2 {
+    position: absolute;
+    top: 1px;
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    border: 3px solid blue;
+    border-radius: 50%;
+    background-color: #00FFFF;
+}
+
+.score-box{
+    position: fixed;
+    height: auto;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1vw;
+    background-color: #ddd;
+  }
+
+  .tRed{
+    width: 5vw;
+    top: 2vh;
+    left: 1vw;
+    color: red;
+    border: 5px solid red;
+  }
+
+  .sRed{
+    width: 4vw;
+    top: 2vh;
+    left: 9vw;
+    color: red;
+    border: 5px solid red;
+  }
+
+  .tBlue{
+    width: 6vw;
+    top: 2vh;
+    left: 78vw;
+    color: blue;
+    border: 5px solid blue;
+  }
+
+  .sBlue{
+    width: 4vw;
+    top: 2vh;
+    left: 87vw;
+    color: blue;
+    border: 5px solid blue;
+  }
